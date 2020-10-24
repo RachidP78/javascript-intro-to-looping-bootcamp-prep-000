@@ -20,8 +20,9 @@ function whileLoop(n) {
 
 // doWhileLoop(num)
 function doWhileLoop(num) {
-  function incrementVariable(num) {
-    num = num + 1;
+  let i = 0
+  function incrementVariable() {
+    i = i + 1;
     return num;
   }
   do {
