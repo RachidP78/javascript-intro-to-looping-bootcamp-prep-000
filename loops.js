@@ -23,4 +23,3 @@ function whileLoop(n) {
 
 
 // doWhileLoop(num)
-
