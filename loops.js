@@ -2,7 +2,11 @@
 
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
-    array.push("I am ${i} strange loop${i === 0 : '' : 's'}.")
+    if (i === 0) {
+      array.push("I am ${} strange loop.")
+    } else {
+      array.push("I am ${} strange loops.")
+    }
     return array
     // I am a ${i} strange loops.
   }
