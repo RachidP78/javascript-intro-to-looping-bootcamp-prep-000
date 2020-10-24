@@ -1,5 +1,4 @@
 // forLoop(array)
-
 function forLoop(array) {
    for ( let i = 0; i < 25; i++) {
      if (i === 1) {
@@ -12,14 +11,16 @@ function forLoop(array) {
 }
 
 // whileLoop(n)
+function whileLoop(n) {
+  while (n > 0) {
+    console.log(--n)
+  }
+  return "done"
+}
 
 
 // doWhileLoop(num)
 
 
 // doWhileLoop(num)
-//if (i === 0) {
-  //array.push("I am ${} strange loop")
-//} else {
-  //array.push("I am ${} strange loops")
-//}
+
